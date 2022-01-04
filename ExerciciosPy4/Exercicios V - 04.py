@@ -69,11 +69,6 @@ nasc = 2022 - idade
 print(f"Voce nasceu em {nasc}")
 
 # 51.
-"""
-Nao sei, nao aprendi ainda sobre isso na escola.
-"""
-
-# 52.
 amg1, amg2, amg3 = input("Digite o nome dos três amigos: ").split()
 
 invest1 = float(input(f"Digite o valor que o {amg1.title()} investiu: R$"))
@@ -91,7 +86,7 @@ print(f"Para o valor do premio ser dividido igualmente de acordo com o investime
       f" {amg1.title()} deverá receber R${premio_1:.2f}, {amg2.title()} deverá receber R${premio_2:.2f}"
       f"e {amg3.title()} deverá receber R${premio_3:.2f}")
 
-# 53.
+# 52.
 c, l = input("Digite as dimencoes do terreno, comprimento e largura: ").split()
 valor = float(input("Digite o valor do metro da tela que deseja usar para cercar o terreno: "))
 
